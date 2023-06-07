@@ -18,7 +18,7 @@ df = pd.DataFrame({
 })
 
 # 对每个代码，根据占比进行降序排序
-df.sort_values(['代码', '占比'], ascending=[True, False], inplace=True)
+df.sort_values(['代码', '占比'], ascending=[True, False], inplace=True)  
 df.reset_index(drop=True, inplace=True)
 
 print(df)
